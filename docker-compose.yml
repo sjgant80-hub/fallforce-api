@@ -1,0 +1,7 @@
+services:
+  fallforce-api:
+    build: .
+    image: ai-native-solutions/fallforce-api:1.0.0
+    ports:
+      - "8787:8787"
+    restart: unless-stopped

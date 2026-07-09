@@ -1,0 +1,27 @@
+{
+  "name": "@ai-native-solutions/fallforce-api",
+  "version": "1.0.0",
+  "description": "HTTP API wrapper for FallForce CRM · pipeline math, risk, autopilot planning · express + fallforce-sdk",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "fallforce-api": "src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "keywords": ["crm", "sales", "pipeline", "forecast", "api", "express", "sovereign"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallforce-api.git"
+  },
+  "homepage": "https://github.com/sjgant80-hub/fallforce-api",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@ai-native-solutions/fallforce-sdk": "^1.0.0",
+    "express": "^4.19.2"
+  }
+}
